@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form I </title>
+</head>
+<body>
+
+    <h1><p> Creating Form Part-I </p></h1>
+    <h2> Form I ( Normal ) </h2>
+    <form action="backend.php"> <!-- form is a tag to start creating form , action tag of form work is to send all the information of such as name , email etc to php or end flask etc -->
+      <div> <!-- div mainly a tag which work in place of br tag to get a gap between differet coloms -->
+        <!-- input tag mainly help to create an input tag where people mainly type the required TEXT -->
+        Name :<input type="text" placeholder="Write Your Name Here"><!-- The input tag is mainly determine the type of input will be executed-->
+      </div> <!-- Placeholder helps to put word inside the box -->
+      <br>
+      <div>
+        Role : <input type="text" placeholder="Write Your Role Here">
+      </div>
+     <br>
+      <div>
+        Email : <input type="email" name="myemail" placeholder="Write Your E-Mail Here">
+      </div>
+      <br>
+      <div>
+        date :<input type="date" name="date">
+      </div>
+      <br>
+      <div>
+        Number of company you have worked till now : <input type="number" placeholder="Write Here">
+      </div>
+      <br>
+      <div>
+        Are you above 18 : <input type="checkbox" name="myeligibility">
+      </div>
+      <br>
+      <div>
+        You are Indian : <input type="checkbox" name="myeligibility" checked > <!-- Checked is mainly is used to make a -->
+      </div>
+      <br>
+      Please select your country : 
+      <select name="mycon">
+          <option value="no" selected> Choose Your Country </option>
+          <option value="America"> America </option>
+          <option value="China"> China  </option>
+      </select>
+      <br> 
+      <br>       
+      <div>
+          Gender : <input type="radio" name="mygender"> Male <input type="radio" name="mygender" > Female <input type="radio" name="mygender"> other
+     </div>
+     <br>
+     Password : <input type="password" placeholder="Keep It Secret">
+     <br>
+     <br>
+     <div>
+         Write About youself : <br><textarea name="mytext" cols="30" rows="10"></textarea>
+     </div>
+     <br>
+     <div>
+         <input type="submit" value="Submit Now ">
+         <input type="reset" value="Reset Now ">
+     </div>
+     <br>
+  </form>
+
+    
+</body>
+</html>
