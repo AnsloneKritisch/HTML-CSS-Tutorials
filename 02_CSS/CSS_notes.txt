@@ -1,4 +1,11 @@
 CSS Notes
 ----------
 
- 
+WHAT IS CSS?
+
+# CSS gives style to raw HTML
+# CSS stands for Cascading Style Sheets
+# CSS is used to give style to our web pages
+# CSS is used to make websites responsive
+# HTML is used to structure a website and CSS takes responsibility of design
+
