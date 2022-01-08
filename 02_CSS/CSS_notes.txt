@@ -29,3 +29,43 @@ THREE WAYS TO ADD CSS TO THE MARKUP :-
 2) Internal CSS: CSS is kept inside the head tags in <style> tags
 3) External CSS: CSS is kept separately inside a .css style sheet
 
+Strongest Command CSS :-
+
+Among all the Command the CSS Command written at first would get more precedence .
+
+For Example :-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to CSS</title>
+    <link rel="stylesheet" href="01_intro.css">
+    <style>
+        p{ 
+            color: whitesmoke ;
+            background-color: black;
+        }
+    </style>
+
+# Here the External CSS is getting more prefernce than Internal CSS because it is written at first .
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to CSS</title>
+    <style>
+        p{ 
+            color: whitesmoke ;
+            background-color: black;
+        }
+    </style>
+    <link rel="stylesheet" href="01_intro.css">
+
+# Here the Internal CSS is getting more prefernce than External CSS because it is written at first .
+
