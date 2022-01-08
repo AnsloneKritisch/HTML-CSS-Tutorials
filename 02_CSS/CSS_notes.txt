@@ -2,6 +2,8 @@ CSS Notes
 ----------
 
 WHAT IS CSS?
+______________
+
 
 # CSS gives style to raw HTML
 # CSS stands for Cascading Style Sheets
@@ -11,11 +13,15 @@ WHAT IS CSS?
 
 
 ROLE OF CSS ? 
+______________
+
 
 # Cascading Style Sheets which is known as CSS is a style sheet language that used to handle the presentation of the web page containing HTML.
 # It makes our websites beautiful and modern looking.
 
 CSS SYNTAX :-
+______________
+
 
 Selector{Property:Value;}
 
@@ -24,12 +30,15 @@ p { color : blue ; }
 
 
 THREE WAYS TO ADD CSS TO THE MARKUP :-
+________________________________________
 
 1) Inline CSS: CSS is added to the elements directly using style attribute
 2) Internal CSS: CSS is kept inside the head tags in <style> tags
 3) External CSS: CSS is kept separately inside a .css style sheet
 
 Strongest Command CSS :-
+_________________________
+
 
 Among all the Command the CSS Command written at first would get more precedence .
 
@@ -68,4 +77,26 @@ For Example :-
     <link rel="stylesheet" href="01_intro.css">
 
 # Here the Internal CSS is getting more prefernce than External CSS because it is written at first .
+
+WHAT IS A CSS SELECTOR?
+_________________________
+
+1) CSS selectors are used to find the element whose property will be set
+2) Selectors are used to target the html elements 
+3) Selectors makes it easy for us to easily target single/multiple HTML elements in the markup
+
+For example :-  
+
+Here P is the selector here :-
+
+p{ color: blue; }
+
+
+TYPES OF BASIC CSS SELECTORS
+______________________________
+
+1) CSS element Selector
+2) CSS id Selector
+3) CSS class Selector
+4) The CSS grouping Selector
 
