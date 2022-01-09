@@ -100,3 +100,10 @@ ______________________________
 3) CSS class Selector
 4) The CSS grouping Selector
 
+Fonts in CSS 
+______________
+
+There are two types of fonts in CSS
+
+1) Web Safe Fonts -> These are inbuilt fonts and easy to use and present in alll computer
+2) 
