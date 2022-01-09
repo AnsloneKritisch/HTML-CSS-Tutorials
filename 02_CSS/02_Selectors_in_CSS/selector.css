@@ -1,2 +1,7 @@
 /* This this the way to comment in CSS */
-/* */
+/* The style part written in HTML Can be written here also and it will work the same */
+/* But we have give the link of this CSS file in HTML file */
+/* 
+like this
+<link rel="stylesheet" href="selector.css"> 
+*/
