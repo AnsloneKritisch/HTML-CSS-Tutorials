@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selectors</title>
     <style>
+        /* Important Note */
+        /* The universal selector (*) selects all HTML elements on the page. */
+    
         /* This is id selector */
         /* To style using id we have to use # sign before id_name  */
         #red{
@@ -15,6 +18,10 @@
         /* To style using class we have to use . sign before class_name  */
         .blue{
             color:blue ;
+        }
+        /* You can also specify that only specific HTML elements should be affected by a class. */
+        span.blue{
+            text-align: center;
         }
         /* Grouping Selectors */
         div,footer{
@@ -34,5 +41,6 @@
 
     <div> Hi this is group selector format in div </div>
     <footer> Hi this is group selector format in footer </footer>
+    <span>togather</span>
 </body>
 </html>
