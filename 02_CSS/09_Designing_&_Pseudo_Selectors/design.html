@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selector and Designing</title>
+    <style>
+                
+        .container{
+            border:7px solid cyan ;
+            background-color: black ;
+            color: whitesmoke ;
+            margin: 125px ;
+            padding: 66px;
+            width: 666px ;
+        }
+        .btn{
+            background-color: cyan;
+            padding: 7px ;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            border-radius: 12px;
+            font-family:'Supermercado One', cursive;
+        }
+        /* a:hover is a Pseudo selector for color section in button */
+        
+        a:hover{
+            color: deeppink;
+            background-color: pink;
+        }
+
+        /* a:Visited is a Pseudo selector for color section in button */
+        a:visited{
+            color: blue;
+            background-color: skyblue;
+        }
+        
+        /* .btn:hover is a Pseudo selector for color section in button */
+        .btn:hover{
+            color: purple;
+            background-color: pink;
+            border: 3px solid red;
+        }
+    
+    
+    
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Supermercado+One&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>This is my Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nemo recusandae sapiente, incidunt saepe voluptate, quae rem adipisci porro alias similique maxime aperiam cumque in, natus eaque hic quas cupiditate eligendi ex. Quod, labore.</p>
+          <a href="https://www.google.com/" class="btn"> Read More</a>
+        <button class="btn">Contact Us</button>
+    </div>
+    
+</body>
+</html>
