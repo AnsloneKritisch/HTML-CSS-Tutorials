@@ -9,13 +9,15 @@ body{
     border: 2px solid red ;
     display: inline-block;
     position: absolute ;
+    left: 34px;
+    top: 20px;
     
 }
 
 .mid{
     display: block;
     width: 40%;
-    margin: 0px auto;
+    margin: 20px auto;
     border: 2px solid blue ;
 }
 .right{
@@ -23,5 +25,16 @@ body{
     display: inline-block;
     position: absolute;
     right: 34px;
-    top: 25px;
+    top: 20px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding : 34px 23px ;
 }
