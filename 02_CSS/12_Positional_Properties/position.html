@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Properties</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            background-color: burlywood;
+            /* Height should be used while showing postion:absolute; */
+            height: 4400px;
+        }
+        /* CSS Position types : static(by defaut) , absolute, relative , fixed , sticky  */
+        .box{
+            border:2px solid red ;
+            display: inline-block;
+            width:150px;
+            height: 150px;
+            margin: 2px;
+        }
+
+        /*
+        Relative means Relative to its normal position 
+        Relative -> If a box is relative then we can use top bottom left right function to move it  
+        Relative should be used if we want vacant space in its original space 
+        */
+
+        /* #box3{
+            position: relative;
+            top: 30px;
+            left: 20px;
+        } */
+
+
+        /* Absolute should be used if we don't want any vacant space in its original space */
+        /* #box3{
+            position: absolute;
+            top: 34px;
+            left: 34px;
+        } */
+
+        /* Absolute postion the element relative to brower window */
+        /* #box3{
+            position:fixed;
+            right:4px;
+            bottom: 4px ;
+        } */
+
+        /* sticky */
+        #box3{
+            position:sticky;
+            top: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    <di class="box" id="box1">1</di>
+    <di class="box" id="box2">2</di>
+    <di class="box" id="box3">3</di>
+    <di class="box" id="box4">4</di>
+    
+    </div>
+</body>
+</html>
