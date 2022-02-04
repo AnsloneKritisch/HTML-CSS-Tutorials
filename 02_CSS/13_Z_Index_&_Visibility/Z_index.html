@@ -11,8 +11,15 @@
             height:170px ;
             border: 2px solid black;
         }
-        #box1{ background-color: green;}
+        #box1{
+            /* Z-Index will only work if the position is relative or absolute or sticky */
+            z-index: -1;
+            position:relative; 
+            top: 14px;
+            background-color: green;}
         #box2{ 
+            z-index: -12;
+            position:relative; 
             background-color: red;
             /* visibility  Will Hide the element , we can see the vacant place  */
             /* visibility: hidden; */
