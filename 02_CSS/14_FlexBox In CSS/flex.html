@@ -13,6 +13,7 @@
     padding: 5px;
     width: 220px ;
     height: 170px ;
+    box-sizing: border-box;
 }
 .container{
     width : 100%;
@@ -61,15 +62,27 @@
     #item-1{
         /* Higher the order Later the box is shown */
         order: 2;
+        
 
     }
     #item-2{
-        order: 30;
+        /* It contols the width of item */
+        flex-basis: 320px;
 
     }
     #item-3{
-
+        /* Higher the flex grow longer the box is shown */
+        flex-grow: 3;
+        /* Short hand */
+        align-self: flex-end;
+        align-self: flex-start;
+        align-self: center;
     }
+    #item-4{
+        /* Higher the flex shrink shoter the box is shown */
+        flex-shrink: 6;
+    }
+
 }
     </style>
 </head>
