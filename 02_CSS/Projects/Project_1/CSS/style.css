@@ -1,9 +1,14 @@
+*{
+}
+
+
 body{
     margin:0px;
     padding:0px;
+    background-image: url('an1.jpg');
     background-color: black;
     color:white;
-    background-image: url('ans.jpg');
+    
 }
 .left{
     border: 2px solid red ;

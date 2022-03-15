@@ -14,3 +14,5 @@ VARIOUS WAYS TO ACHIEVE RESPONSIVE DESIGN
 3. Using CSS Media Queries
 4. Using rem/vh/vw units over pixels
 
+
+
