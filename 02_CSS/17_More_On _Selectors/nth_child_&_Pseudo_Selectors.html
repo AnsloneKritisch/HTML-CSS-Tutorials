@@ -4,9 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>nth Child and Pseudo Selectors</title>
+    <style>
+        .container{
+            display:block;
+            width: 233px ;
+            margin:auto ;
+        }
+        input{
+            display:block;
+
+        }
+
+        input[type='text']{
+            padding:20px ;
+            border:2px solid red ;
+        }
+        a[target]{
+            font-size: 40px;
+            color:blueviolet;
+        }
+
+        li:nth-child(3){
+            color:aqua;
+
+        }
+
+        /* Every Even no will be CSS Added */
+        /* we have to rigth algortitm in the bracket */
+        li:nth-child(2n+0){
+            color:red;
+        }
+
+        /* Even Child */
+        li:nth-child(even){
+            background-color:yellow;
+        }
+        li:nth-child(odd){
+            background-color:chartreuse;
+        }
+
+    </style>
 </head>
 <body>
+
+    <div class="container">
+        <a href="http://google.com" target="_blank"> Go To Google </a>
+        <form action="" class="form-control">
+
+            <input type="text" name="" placeholder="Enter Your Name" id="">
+            <input type="password" name="" placeholder="Enter Your Password" id="">
+            <input type="submit" value="Submit Now">
+        
+        </form>
+
+
+        <ul>
+            <li class="item" id="item1">item1</li>
+            <li class="item" id="item2">item1</li>
+            <li class="item" id="item3">item1</li>
+            <li class="item" id="item4">item1</li>
+            <li class="item" id="item5">item1</li>
+            <li class="item" id="item6">item1</li>
+            <li class="item" id="item7">item1</li>
+            <li class="item" id="item8">item1</li>
+            <li class="item" id="item9">item1</li>
+            <li class="item" id="item10">item1</li>
+        </ul>
+    </div>
     
 </body>
 </html>
