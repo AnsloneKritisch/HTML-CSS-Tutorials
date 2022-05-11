@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Selectors</title>
+    <style>
+        h1{
+            text-align:center;
+            font-weight: bold;
+
+        }
+
+        /* All the paragraph indside the div would be changed */
+
+        /* div p{
+            color:red ;
+        } */
+
+        /* All the paragraph in side the li would change */
+
+        /* div ul li p{
+            color: red ;
+
+        } */
+
+        /* If i want that direct child only gets affected */
+        /* Direct Child means the paragraph under the div command  */
+
+        div > p{
+            color:red ;
+        }
+    </style>
+</head>
+<body>
+    <h1>More on Selectors</h1>
+    <div class="container">
+        <div class="box">
+            <ul>
+                <li><p>This is a paragraph</p></li>
+            </ul>
+            <p>This is Paragraph</p>
+        </div>
+        <p>This is another paragraph</p>
+    </div>
+    <p>This is another paragraph</p>
+
+</body>
+</html>
