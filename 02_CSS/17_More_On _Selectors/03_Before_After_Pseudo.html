@@ -4,16 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Before and After Pseudo Selectors</title>
+    <title>Before and After Pseudo Selectors</title>`
     <style>
         body{
+            padding: 0px;
+            margin: 0px;
             background-color: black;
             color:white;
         }
 
         section{
+            height: 344px;
+            border: 2px solid red ;
             display:flex;
             flex-direction:column ;
+            margin: 3px 23px;
+            align-items:center;
+            justify-content: center;
+        }
+
+        /* section::before{
+            content: "This is a content";
+        } */
+        .navbar{
+            display:flex ;
+            font-size: 20px;
+        }
+        li{
+            list-style: none ;
+            padding: 34px 23px ;
+        }
+        h1{
+            font-size: 4rem ;
+        }
+
+        p{
+            text-align:center ;
+
         }
     </style>
 </head>
