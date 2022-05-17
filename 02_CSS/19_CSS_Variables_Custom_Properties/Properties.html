@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables and Custom_Properties</title>
+</head>
+<style>
+    .box{
+        width: 200px;
+        height: 200px ;
+        background-color:aqua;
+        border: 2px solid blueviolet;
+        margin: 2px 9px;
+        --box-color:tomato;
+        background-color: var(--box-color);
+    }
+
+    .container{   
+        display: flex;
+        background-color: var(--box-color);
+        /* no effect can be seen because if you want to use the variable then you have to mention is in each container it is a type of local variable */
+        --box-color:aqua;
+        background-color: var(--box-color);
+    }
+
+    :root{
+        /* variable made inside are like global variable can be use under any selector */
+        --primary-color:black;
+    }
+
+    body{
+        background-color: var(--primary-color);
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>
